@@ -11,6 +11,7 @@ KiteAI 机器人是一个基于 Web3 技术的自动化工具，旨在利用区�
 - **去中心化支持**：通过区块链技术实现去中心化治理和安全机制。
 ## 先决条件
 A KiteAI 测试网账号 [注册](https://testnet.gokite.ai?r=CuEPgRvm)
+
 Groq API 密钥 从 https://console.groq.com 获取
 
 ## 安装步骤

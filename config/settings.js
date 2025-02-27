@@ -54,3 +54,7 @@ export const loadProxies = async () => {
     return [];
   }
 };
+
+export const refCode = {
+  code: "CuEPgRvm" 
+};

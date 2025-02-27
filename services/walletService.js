@@ -2,13 +2,13 @@ import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
 import { log } from "../utils/tools.js";
-import Web3 from "web3"; // 新增依赖
+import Web3 from "web3"; 
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 class WalletService {
   constructor() {
-    this.web3 = new Web3("https://api.avax.network/ext/bc/C/rpc"); // 使用与 gokiteAi.js 相同的 RPC
+    this.web3 = new Web3("https://api.avax.network/ext/bc/C/rpc"); 
   }
 
   async loadWallets() {
